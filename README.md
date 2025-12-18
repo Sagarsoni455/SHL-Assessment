@@ -16,3 +16,31 @@ This project addresses that challenge by automating the selection process using 
 - **Frontend:** Streamlit
 - **AI Model:** Google Gemini 1.5 Flash (via `google-generativeai`)
 - **Data Handling:** Pandas
+
+## How to Setup the Project
+Follow these steps to set up the project on your local machine.
+
+### Prerequisite
+You must have **Python** installed. You can check by running `python --version` in your terminal.
+
+### Step 1: Download the Files
+1. Create a new folder named `shl-recommender`.
+2. Place `app.py`, `Gen_AI Dataset.csv`, and `requirements.txt` inside this folder.
+
+### Step 2: Create a Virtual Environment (Recommended)
+It is best practice to run Python projects in a virtual environment to avoid conflicts.
+* **Windows:**
+    ```bash
+    python -m venv venv
+    venv\Scripts\activate
+    ```
+* **Mac/Linux:**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+### Step 3: Install Dependencies
+With your virtual environment active, install the required libraries:
+```bash
+pip install -r requirements.txt
